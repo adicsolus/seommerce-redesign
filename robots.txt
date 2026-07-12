@@ -1,0 +1,29 @@
+# Czyste boty datasetowe/scrapery (bez powierzchni cytowania) — zablokowane.
+User-agent: CCBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+# Wszyscy pozostali — dozwoleni. W tym silniki AI dające cytowanie/grounding:
+# GPTBot, Google-Extended, ClaudeBot, Applebot-Extended, Meta-ExternalAgent,
+# OAI-SearchBot, ChatGPT-User, PerplexityBot. (Świadoma polityka: max obecność w AI.)
+User-agent: *
+Allow: /
+
+Sitemap: https://adicsolus.github.io/seommerce-redesign/sitemap_index.xml
